@@ -5,7 +5,7 @@ function Detail() {
   return (
     <Container>
       <Background>
-        <img src="/images/slam-r.png" />
+        <img src="/images/bg-slam.jpeg" />
       </Background>
       <ImageTitle>
         <h1>SLAM DUNK</h1>
@@ -68,6 +68,7 @@ const ImageTitle = styled.div`
   width: 42vw;
   min-height: 170px;
   height: 30vh;
+  margin-top: 60px;
   h1 {
     font-size: 7.5vw;
     letter-spacing: -2.8px;
@@ -128,7 +129,7 @@ const SubTitle = styled.div`
   font-size: 15px;
 `;
 const Description = styled.div`
-  width: 60vw;
+  max-width: 60vw;
   margin-top: 16px;
   line-height: 1.4;
   font-size: 20px;
