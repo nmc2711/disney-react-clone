@@ -29,3 +29,11 @@
 
 1. 로그인 페이지 ui 구현작업
 2. firebase 모델구조 및 데이터 리솔팅
+
+## 5일차
+
+- 5/15 (13:00 - 19:50)
+
+1. redux tooltip store 및 모델링 작성 및 연동
+2. detail, movies 페이지 firebase 실데이터 연동
+3. 헤더 구글 아이디 로그인 기능 추가 및 refresh 해당 유지로직(개선필요)
